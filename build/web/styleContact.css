@@ -1,0 +1,101 @@
+
+.body1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-color: #364c6c;
+    overflow:auto;
+}
+.div-gr{
+    position: absolute;
+    width: 600px;
+    height: 560px;
+    background-color: gray;
+    left: 20%;
+    top: 30px;
+    box-shadow: 10px 10px 10px 13px rgb(50, 224, 166);
+}
+.div1{
+    position: absolute;
+    left: 40%;
+    width: 200px;
+    height: 160px;
+    top: 20px;
+    
+    
+}
+ img {
+    width: 170px;
+    height: 120px;
+    padding: 5px;
+}
+p{
+   position: absolute;
+   right: 80px;
+   left: 20px;
+
+   font-family: 'Lucida Sans';
+    
+
+}
+.salle1{
+    position: absolute;
+    right: -2px;
+    top: 170px;
+    width: 250px;
+    height: 170px;
+}
+
+.salle2{
+    position: absolute;
+    right: -2px;
+    top: 385px;
+    width: 250px;
+    height: 170px;
+}
+.div-in{
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    width: 200px;
+    height: 130px;
+    
+}
+.div-in .in1{
+    position: absolute;
+    background-color:#adadad;
+    width: 120px;
+    height: 35px;
+    right: 60px;
+    top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: ' Courier';
+    font-weight: 900;
+    cursor: pointer;
+
+}  
+.div-in .in2{
+    position: absolute;
+    background-color:#adadad;
+    width: 120px;
+    height: 35px;
+    right: 60px;
+    top: 80px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-family: ' Courier';
+    font-weight: 900;
+    cursor: pointer;
+
+} 
+footer{
+    background-color: #152844;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    top: 770px;
+}

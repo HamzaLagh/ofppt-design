@@ -1,0 +1,147 @@
+body{
+
+  position: relative;  
+  margin: 0;
+  background-color: rgb(118, 193, 255);
+    
+}
+h1{
+    position: absolute;
+    top: 50px;
+}
+table {
+    border: 1;
+    position: absolute;
+    top:150px;
+    width: 85%;
+    left:30PX ;
+    height: 80%;
+    background-color: rgb(194, 194, 194);
+    padding:  10px;
+}
+
+table th{
+    width: 210px;
+}
+table ,th,td{
+    border: black solid thin;
+    padding: 5px;
+}
+table td input{
+    border: white solid thin;
+    width: 210px;
+    padding: 5px; ;
+}
+table td {
+    border: none;
+}
+table tr .module{
+    border: #000000  solid thin;
+    margin-right: 6px;
+}
+.retour input{
+    position: absolute;
+    float: left;
+    top: 100px;
+    background-color: rgb(92, 151, 151);
+    padding: 5px 12px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.enregistrer{
+    position: absolute;
+    background-color: black;
+    top: 1080px;
+    right: 120px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    padding: 10px 2px;
+    border-radius: 8px;
+}
+.modifier{
+    position: absolute;
+    background-color:black;
+    top: 1080px;
+    right: 230px;
+    width: 90px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.enregistrer:hover , .modifier:hover{
+    background-color: cadetblue;
+    
+}
+
+.nav2 {
+    position: absolute;
+    /* background-color: rgb(83, 187, 221); */
+    background-color: #000;
+    opacity: 1;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    
+
+}
+
+.nav2 .btn-2 {
+    position: absolute;
+    top: 10px;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    left: 10px;
+    color: #ffffff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+.nav2 .btn-2:hover{
+    color: cadetblue;
+}
+footer{
+    position: absolute;
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    top: 1300px;
+    text-align: center;
+    
+}
+footer p {
+    position: absolute;
+    top: 30px;
+    left: 40%;
+}
+
+
+@media only screen and (max-width : 600px){
+    body{
+        display: flex;
+    }
+   div table{
+        position: absolute;
+        width: 10px;
+    }
+    .enregistrer{
+        top: 1200px;
+    }
+    .modifier{
+        top: 1200px;
+
+    }
+    footer{
+
+        width: 250%;
+    }
+}

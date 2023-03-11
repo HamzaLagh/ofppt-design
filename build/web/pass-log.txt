@@ -1,0 +1,5 @@
+stagiaire : login = hamza
+            password = hamza123
+
+formateur : login : laghnimi
+            password : laghnimi123

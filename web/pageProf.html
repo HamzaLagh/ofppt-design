@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="styleProf.css" rel="stylesheet" type="text/css" />
+    <title>les notes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo-ofppt.png" >
+
+</head>
+
+<body>
+    <nav class="nav1">
+        <div class="c1" onclick="menuDown();closeMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
+
+    <img class="bg" src="imageOfppt.jpg" alt="">
+
+   <div>
+    <h1 style="color: black ;position: absolute;top: 80px; left: 5%; box-shadow: 0px  white; background-color: rgba(240, 248, 255, 0.419);border-bottom: 1px solid black; padding: 10px; font-family: Helvetica; font-size: 40px;"> Bienvenue dans l'espace Formateur. </h1>
+</div>
+
+   <form>
+        
+        <div class="div1">
+            <label>filiere :</label>
+            <br><br>
+            <select>
+                <option value="TDI">TDI</option>
+                <option value="TDM">TDM</option>
+                <option value="TRI">TRI</option>
+                <option value="TSGE">TSGE</option>
+                <option value="INFO">INFO</option>
+            </select>
+        </div>
+
+        <div class="div2">
+            <label>Groupe :</label>
+            <br><br>
+            <select>
+                <option value="TDI101">TDI101</option>
+                <option value="TDI102">TDI102</option>
+                <option value="TDI103">TDI103</option>
+                <option value="TDI104">TDI104</option>
+                <option value="TDI105">TDI105</option>
+                <option value="TDM101">TDM101</option>
+                <option value="TDM102">TDM102</option>
+                <option value="TDM103">TDM103</option>
+                <option value="TRI101">TRI101</option>
+                <option value="TRI102">TRI102</option>
+                <option value="TRI103">TRI103</option>
+                <option value="TRI104">TRI104</option>
+                <option value="TSGE101">TSGE101</option>
+                <option value="TSGE102">TSGE102</option>
+                <option value="TSGE103">TSGE103</option>
+                <option value="TSGE104">TSGE104</option>
+                <option value="INFO101">INFO101</option>
+                <option value="INFO102">INFO102</option>
+                <option value="INFO103">INFO103</option>
+                <option value="INFO104">INFO104</option>
+            </select>
+        </div>
+
+        <div class="div3">
+            <label>semestre :</label>
+            <br><br>
+            <select>
+                <option value="1er">1er</option>
+                <option value="2eme">2eme</option>
+            </select>
+        </div>
+
+        <div class="div4">
+            <label>module :</label>
+            <br><br>
+            <select>
+                <option value="module 1">module 1</option>
+                <option value="module 2">module 2</option>
+                <option value="module 3">module 3</option>
+                <option value="module 4">module 4</option>
+                <option value="module 5">module 5</option>
+                <option value="module 6">module 6</option>
+            </select>
+        </div>
+        <div class="suivant">
+            <input type="button" value="Suivant" onclick="window.location.href='pageProf2.html'  ">
+        </div>
+    </form>
+
+    <div class="menu2" id="menu">
+
+        <div class="li-1" style="position: absolute; top: 0px; cursor: pointer;"><a class="a-1" href="pageContact.html"> <i
+                    class=" fa fa-envelope" style="position: absolute;  right: 100px; font-size: 20px; top: 2px;"></i>
+                contact </a></div>
+        <div class="li-2" style="position: absolute; top: 60px;cursor: pointer;"><a class="a-2" href="################"> <i
+                    class=" fa fa-laptop" style="position: absolute;  right: 105px; font-size: x-large; top: 2px;"></i>
+                formation </a></div>
+        <div class="li-3" style="position: absolute; top: 120px;cursor: pointer;"><a class="a-3" href="###############"> <i
+                    class=" fa fa-info-circle"
+                    style="position: absolute;  right: 90px; font-size: x-large; top: 2px;"></i> about </a></div>
+        <div class="li-4" style="position: absolute; top:  590px;cursor: pointer;"><a class="a-4" onclick="confirmation()"> <i
+                    class=" fa fa-sign-out"
+                    style="position: absolute;  right: 100px; font-size: x-large; top: 2px;"></i> log out </a></div>
+    </div>
+
+
+    <div id="logOut" >
+        <p>Êtes-vous sûre de vouloir déconnecter?</p>
+        <button style="left: 30%; " id="ok" onclick="ok()">Ok </button>
+        <button style="left: 60%; " id="annuler" onclick="annuler()">Annuler</button>
+   </div>
+
+
+    <footer>
+        <p>Copyright © OFPPT, e-Note V 1.00 2022</p>
+    </footer>
+
+    <script src="js2.js" type="text/javascript"></script>
+
+</body>
+
+</html>
